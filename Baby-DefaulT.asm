@@ -4,23 +4,23 @@ global _start
 
 section .rodata
 
-    equal db "Bien joué ! --> {1mAfl4G}", 10, 0
+    equal db "Good Answer !", 10, 0
     equal_len equ $-equal
 
-    above db "Mauvaise réponse !",10 ,0
+    above db "Bad Answer !",10 ,0
     above_len equ $-above
 
-    above_equal db "Mauvaise réponse !",10 ,0
+    above_equal db "Bad Answer !",10 ,0
     above_equal_len equ $-above_equal
 
-    below db "Mauvaise réponse !",10 ,0
+    below db "Bad Answer !",10 ,0
     below_len equ $-below
 
-    below_equal db "Mauvaise réponse !",10 ,0
+    below_equal db "Bad Answer !",10 ,0
     below_equal_len equ $-below_equal
 
-    troll db "yo bro this a fake function man", 10 , 0
-    troll_len equ $-troll
+    asx db "yo bro this a fake function man", 10 , 0
+    asx_len equ $-asx
 
 section .text
 
@@ -84,8 +84,8 @@ _below_equal:
 _easy:
     mov rax, 0x1
     mov rdi, 0x1
-    mov rsi, troll
-    mov rdx, troll_len
+    mov rsi, asx
+    mov rdx, asx_len
     syscall
     jmp _exit
 
