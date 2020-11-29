@@ -1,5 +1,5 @@
 # Baby-DefaulT
-|En : A very simple challenge to start reverse-engineering
+| Very easy reversing challenge to introduce reverse-engineering
 
 ### Easy Challenge coded in nasm (yes) to start introduction to reverse-engineering 👨‍💻
 
