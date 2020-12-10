@@ -20,7 +20,7 @@ What is reverse-engineering ?
 - master a disassembler & debugger (like gdb,....)
 
 ### -------------------------------------------------
-
+![alt text](https://media.giphy.com/media/Jm6b4xeQlIi05Y0kUm/giphy.gif)
 <br />
 <br />
 
